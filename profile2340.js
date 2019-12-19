@@ -24,7 +24,7 @@ var mpStatus = [
 var mpCarPick = {
     legend: [1],
     platinum: [1, 2, 3, 4, 5],
-    gold: [1, 2, 3, 5],
+    gold: [1, 2, 3, 6],
     silver: [1, 2, 3, 4, 5],
     bronze: [1, 2, 3, 5, 6, 7, 8, 9, 10],
 
