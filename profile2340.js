@@ -9,10 +9,10 @@ var mpLevelName = ['legend', 'platinum', 'gold', 'silver', 'bronze', 'legend2', 
 // 传奇、白金、黄金、白银、青铜的车是否可用，true表示可用，false表示不可用
 var mpStatus = [
     false,     // 传奇
-    false,     // 白金
+    true,     // 白金
     true,     // 黄金
     true,     // 白银
-    true,     // 青铜
+    false,     // 青铜
 
     false,     // 传奇
     false,     // 白金
@@ -23,8 +23,8 @@ var mpStatus = [
 
 var mpCarPick = {
     legend: [1],
-    platinum: [1, 2, 3, 4, 5],
-    gold: [1, 2, 3, 6],
+    platinum: [1],
+    gold: [1, 2, 3, 6, 15],
     silver: [1, 2, 3, 4, 5],
     bronze: [1, 2, 3, 5, 6, 7, 8, 9, 10],
 
