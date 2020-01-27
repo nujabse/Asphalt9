@@ -37,7 +37,7 @@ var position = 2;
 var up = 1;
 
 // 前置寻车开关，如果运行脚本时想先跑一轮寻车，请把0改成1
-if (1) {
+if (0) {
     // start carHunt
     for ( let i = 0; i < 5; i++ ) {
         carHunt.beforeRun(position);
