@@ -12,7 +12,7 @@ var mpStatus = [
     true,     // 白金
     true,     // 黄金
     true,     // 白银
-    false,     // 青铜
+    true,     // 青铜
 
     false,     // 传奇
     false,     // 白金
